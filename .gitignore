@@ -1,0 +1,7 @@
+/*-dump.txt
+/*.so
+/target/
+/js/scripts/node_modules/
+/dist
+
+node_modules

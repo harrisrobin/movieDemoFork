@@ -1,0 +1,13 @@
+{
+  "name": "movieDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ixmorrow/movieDemo.git",
+  "author": "Harris Robin Kalash <hello@harris.dev>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd js && tsc && node dist/exampleDemo.js",
+    "build:rust": "cargo build-bpf --manifest-path=Cargo.toml --bpf-out-dir=dist/program",
+    "clean:rust": "cargo clean --manifest-path=./Cargo.toml && rm -rf ./dist"
+  }
+}
